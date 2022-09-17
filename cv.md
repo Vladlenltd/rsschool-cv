@@ -23,3 +23,31 @@ Today I want to develop in the field of development. Interesting frontend. I lik
 * React
 * NodeJS
 * Webpack
+
+# Example Code
+```
+function handleCardLike(card) {
+    const isLiked = card.likes.some((i) => i._id === currentUser._id);
+    api
+      .changeLikeCardStatus(card._id, !isLiked)
+      .then((newCard) => {
+        setCards((state) =>
+          state.map((c) => (c._id === card._id ? newCard : c))
+        );
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }
+  ```
+
+  # Education
+
+* University of the Russian Academy of Education
+    * Managment
+* Yandex.Prakticum
+    * Web-development
+
+    # Languages
+    * Russian - Native
+    * English - **A2** (in the process)
