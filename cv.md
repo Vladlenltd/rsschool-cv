@@ -48,6 +48,6 @@ function handleCardLike(card) {
 * Yandex.Prakticum
     * Web-development
 
-    # Languages
-    * Russian - Native
-    * English - **A2** (in the process)
+  # Languages
+   * Russian - Native
+   * English - **A2** (in the process)
